@@ -8,6 +8,10 @@ public class Target {
 	
 	ChromeDriver d; 
 	
+	public void Woo() {
+		
+	}
+	
 	public void open() {
 		System.setProperty("webdriver.gecko.driver", "/Users/ihalder/Downloads/chromedriver_mac64/geckodriver");
 		//it will open a blank browser
